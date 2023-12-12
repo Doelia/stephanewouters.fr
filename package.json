@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "serve:php": "php -S localhost:3000 -t public server.php",
+    "build": "vite build && ./build-php.sh",
     "preview": "vite preview"
   },
   "dependencies": {

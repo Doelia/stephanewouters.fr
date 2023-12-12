@@ -1,17 +1,7 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Stéphane Wouters</title>
 
-    <script type="module" src="http://localhost:5173/@vite/client"></script>
-
-<!--    <link rel="stylesheet" href="http://localhost:5173/src/index.scss"/>-->
-    <script type="module" src="http://localhost:5173/src/main.jsx"></script>
-</head>
-
-<?= 'hello'; ?>
+<?php require('includes/head.php'); ?>
 
 <body data-bs-theme="light">
 
