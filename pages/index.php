@@ -12,7 +12,7 @@
 
         <div class="col-lg-5 p-4">
 
-            <a href="/" data-turbo-frame="frame_container">
+            <a href="/">
                 <img src="avatar.png" alt="" class="avatar" width="150" height="150">
             </a>
 
@@ -126,6 +126,8 @@
                             <a href="https://bakamon.doelia.fr/" class="text-hover-animated text-body fw-bold">Bakamon GO!</a>
                         </li>
                     </ul>
+
+<!--                    <a href="projects.html" class="fst-italic opacity-50">View more</a>-->
 
                 </div>
             </div>

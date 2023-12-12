@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import TurtleCanvas from "./canvas/render/TurtleCanvas.jsx";
 import {makeReact} from "./tools.js";
 import DomEventsPopper from "./canvas/DomEventsPopper.js";
-// import "@hotwired/turbo"
+import "@hotwired/turbo"
 
 import './index.scss'
 

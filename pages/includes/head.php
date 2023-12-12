@@ -10,7 +10,7 @@
     <?php else: ?>
         <script type="module" src="http://localhost:5173/@vite/client"></script>
 
-        <link rel="stylesheet" href="http://localhost:5173/src/index.scss"/>
+<!--        <link rel="stylesheet" href="http://localhost:5173/src/index.scss"/>-->
         <script type="module" src="http://localhost:5173/src/main.jsx"></script>
     <?php endif ?>
 
