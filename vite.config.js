@@ -5,10 +5,18 @@ import preact from '@preact/preset-vite'
 export default defineConfig({
   plugins: [preact()],
 
+  server: {
+    origin: 'http://localhost:5173'
+  },
+
   // compile also projects.html
     // build: {
 
   build: {
-    // cssCodeSplit: false
+    manifest: true,
+    rollupOptions: {
+      input: '/src/main.jsx'
+    },
+    // cssCodeSplit: true
   },
 })
