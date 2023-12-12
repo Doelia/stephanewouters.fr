@@ -9,14 +9,10 @@ export default defineConfig({
     origin: 'http://localhost:5173'
   },
 
-  // compile also projects.html
-    // build: {
-
   build: {
     manifest: true,
     rollupOptions: {
       input: '/src/main.jsx'
     },
-    // cssCodeSplit: true
   },
 })

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "serve:php": "php -S localhost:3000 -t public server.php",
-    "build": "vite build && ./build-php.sh",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
