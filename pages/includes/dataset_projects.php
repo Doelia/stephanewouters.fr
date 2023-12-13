@@ -7,8 +7,8 @@ $projects = [
         'year' => '2023',
         'description' => 'Ants have to find and bring food back to their nest, using only pheromones.',
         'technologies' => [
-            'canvas' => ['bg-html', 'fa-brands fa-html5'],
-            'react' => ['bg-react', 'fa-brands fa-react'],
+            'Canvas' => ['bg-html', 'fa-brands fa-html5'],
+            'React' => ['bg-react', 'fa-brands fa-react'],
         ],
         'links' => [
             'Play' => ['fa-regular fa-external-link', 'https://ants.doelia.fr'],
@@ -21,7 +21,7 @@ $projects = [
         'year' => '2023',
         'description' => 'Incremental mobile game in a medieval world where you choose your career path, gain skills, and make decisions that shape your ultimate destiny.',
         'technologies' => [
-            'react native' => ['bg-react', 'fa-brands fa-react'],
+            'React native' => ['bg-react', 'fa-brands fa-react'],
         ],
         'links' => [
             'iOS' => ['fa-brands fa-apple', 'https://stephanewouters.fr/pk'],
@@ -49,11 +49,11 @@ $projects = [
         'description' => "Un jeu inspiré par la BD parodique Bakamon et pokemon go. Vous incarnez crétin et vous partez à la recherche des bakamon sur une carte virtuelle. Entubez les tous !",
         'technologies' => [
             'Symfony' => ['bg-dark', 'fa-brands fa-symfony'],
-            'Mercure.rocks' => ['bg-mercure', 'fa-light fa-temperature-snow'],
             'PostgreSQL' => ['bg-postgres', 'fa-solid fa-database'],
             'PgRouting' => ['bg-postgres', 'fa-solid fa-route'],
-            'OpenLayers' => ['bg-openlayers', 'fa-solid fa-map'],
             'React' => ['bg-react', 'fa-brands fa-react'],
+            'OpenLayers' => ['bg-openlayers', 'fa-solid fa-map'],
+            'Mercure' => ['bg-mercure', 'fa-solid fa-temperature-three-quarters'],
         ],
         'links' => [
             'Play' => ['fa-regular fa-play', 'https://bakamon.doelia.fr/'],
@@ -68,10 +68,25 @@ $projects = [
             'Node.JS' => ['bg-nodejs', 'fa-brands fa-node-js'],
             'Socket.io' => ['bg-dark', 'fa-brands fa-node-js'],
             'Vue.js' => ['bg-vuejs', 'fa-brands fa-vuejs'],
+            'PostgreSQL' => ['bg-postgres', 'fa-solid fa-database'],
         ],
         'links' => [
             'Play' => ['fa-regular fa-play', 'https://gemwar.io'],
         ]
+    ],
+    [
+        'id' => 'piopio',
+        'name' => 'PioPio Family',
+        'year' => '2022',
+        'description' => "Un clone de crypto-kitties. Un projet qui m'a permis de découvrir web3, la blockchain etherieum et les smarts contracts.",
+        'technologies' => [
+            'Blockchain' => ['bg-eth', 'fa-brands fa-ethereum'],
+            'Symfony' => ['bg-dark', 'fa-brands fa-symfony'],
+            'Vue.js' => ['bg-vuejs', 'fa-brands fa-vuejs'],
+            'PostgreSQL' => ['bg-postgres', 'fa-solid fa-database'],
+        ],
+        'links' => [
+        ],
     ],
     [
         'id' => 'teletravail',
@@ -89,17 +104,46 @@ $projects = [
         ]
     ],
     [
+        'id' => 'narrative_editor',
+        'name' => 'Fiction story editor',
+        'year' => '2019',
+        'description' => "Un éditeur pour créer des scenario d'histoires narratives sous la forme de conversations sms.",
+        'technologies' => [
+            'Angular' => ['bg-angular', 'fa-brands fa-angular'],
+            'Material design' => ['bg-react', 'fa-brands fa-angular'],
+        ],
+        'links' => [
+//            'Demo' => ['fa-regular fa-play', 'https://fish-flocking.doelia.fr/'],
+//            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/fish-flocking']
+        ]
+    ],
+    [
         'id' => 'fishflocking',
         'name' => 'Fish Flocking',
         'year' => '2018',
         'description' => 'A simulation of fish flocking behavior, using the Boids algorithm. Created for poisson-soluble.com web agency website.',
         'technologies' => [
-            'canvas' => ['bg-html', 'fa-brands fa-html5'],
-            'JS' => ['bg-js', 'fa-brands fa-js'],
+            'Canvas' => ['bg-html', 'fa-brands fa-html5'],
+            'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
             'Demo' => ['fa-regular fa-play', 'https://fish-flocking.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/fish-flocking']
+        ]
+    ],
+    [
+        'id' => 'survivia',
+        'name' => 'Survivia',
+        'year' => '2015',
+        'description' => "Un serveur minecraft PVP que j'ai fondé et géré pendant 3 ans, de 2012 à 2015. Comunauté de 300.000 membres. Réseau de 12 serveurs linux. Les serveurs sont fermés et la commaunauté s'est dissoute mais les modes de jeux développés restent jouble sur serveur privé.",
+        'technologies' => [
+            'Java' => ['bg-java', 'fa-brands fa-java'],
+            'MySQL' => ['bg-mysql', 'fa-solid fa-database'],
+            'Linux' => ['bg-dark', 'fa-brands fa-linux'],
+        ],
+        'links' => [
+            'Mode de jeux' => ['fa-regular fa-play', 'https://survivia.net'],
+            'Memory fan video' => ['fa-brands fa-youtube', 'https://www.youtube.com/watch?v=VKrGqg8MAX0'],
         ]
     ],
     [
@@ -115,20 +159,6 @@ $projects = [
         ]
     ],
     [
-        'id' => 'survivia',
-        'name' => 'Survivia',
-        'year' => '2015',
-        'description' => "Un serveur minecraft PVP que j'ai fondé et géré pendant 3 ans, de 2012 à 2015. Comunauté de 300.000 membres. Réseau de 12 serveurs linux. Les serveurs sont fermés et la commaunauté s'est dissoute mais les modes de jeux développés restent jouble sur serveur privé.",
-        'technologies' => [
-            'Java' => ['bg-java', 'fa-brands fa-java'],
-            'Linux' => ['bg-dark', 'fa-brands fa-linux'],
-        ],
-        'links' => [
-            'Mode de jeux' => ['fa-regular fa-play', 'https://survivia.net'],
-            'Memory fan video' => ['fa-brands fa-youtube', 'https://www.youtube.com/watch?v=VKrGqg8MAX0'],
-        ]
-    ],
-    [
         'id' => 'bourbaki',
         'name' => 'Jeu du petit carré',
         'year' => '2014',
@@ -136,7 +166,7 @@ $projects = [
         'technologies' => [
             'Golang' => ['bg-golang', 'fa-brands fa-golang'],
             'Socket.io' => ['bg-dark', 'fa-brands fa-node-js'],
-            'JS' => ['bg-js', 'fa-brands fa-js'],
+            'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
             'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/bourbaki'],
@@ -150,6 +180,7 @@ $projects = [
         'technologies' => [
             'Node.JS' => ['bg-nodejs', 'fa-brands fa-node-js'],
             'Socket.io' => ['bg-dark', 'fa-brands fa-node-js'],
+            'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
             'Demo' => ['fa-regular fa-play', 'https://whiteboard.doelia.fr/'],
@@ -164,7 +195,7 @@ $projects = [
         'technologies' => [
             'PHP' => ['bg-php', 'fa-brands fa-php'],
             'pthreads' => ['bg-php', 'fa-brands fa-php'],
-            'JS' => ['bg-js', 'fa-brands fa-js'],
+            'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
             'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/defensia'],
@@ -177,7 +208,7 @@ $projects = [
         'description' => 'Un clone libre du jeu de cartes Dominion. Jouable en ligne en multijoueur.',
         'technologies' => [
             'Java' => ['bg-java', 'fa-brands fa-java'],
-            'JS' => ['bg-js', 'fa-brands fa-js'],
+            'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
             'Demo' => ['fa-regular fa-play', 'https://dominion.doelia.fr/'],
@@ -190,7 +221,6 @@ $projects = [
         'year' => '2012',
         'description' => 'Un jeu web de stratégie, réalisé en 48h pour le Ludum Dare.',
         'technologies' => [
-            'JS' => ['bg-js', 'fa-brands fa-js'],
             'jQuery' => ['bg-jquery', 'fa-brands fa-js'],
         ],
         'links' => [
@@ -205,6 +235,7 @@ $projects = [
         'description' => "Mon premier projet PHP, j'avais 16 ans. Un jeu IDLE multijoueur, ancétre de Gemwar.io.",
         'technologies' => [
             'PHP 5.2' => ['bg-php', 'fa-brands fa-php'],
+            'MySQL' => ['bg-mysql', 'fa-solid fa-database'],
         ],
         'links' => [
             'Play' => ['fa-regular fa-play', 'https://doewar-2009.doelia.fr/'],

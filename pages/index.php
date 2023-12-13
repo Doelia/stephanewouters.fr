@@ -3,7 +3,7 @@
 
 <?php require('includes/head.php'); ?>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="light">
 
 <turtle-canvas class="h-100 w-100 position-fixed opacity-25"></turtle-canvas>
 
