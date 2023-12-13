@@ -34,9 +34,9 @@ $projects = [
         'year' => '2023',
         'description' => 'Minecraft map hosting service. Play a variety of pvp/adventure maps, pre-configured & ready-to-play, without download.',
         'technologies' => [
-            'Symfony' => ['bg-dark', 'fa-brands fa-symfony'],
-            'Docker' => ['bg-docker', 'fa-brands fa-docker'],
             'AWS' => ['bg-aws', 'fa-brands fa-aws'],
+            'Docker' => ['bg-docker', 'fa-brands fa-docker'],
+            'Symfony' => ['bg-dark', 'fa-brands fa-symfony'],
         ],
         'links' => [
             'playthatmap.net' => ['fa-regular fa-external-link', 'https://playthatmap.net'],
@@ -104,6 +104,18 @@ $projects = [
         ]
     ],
     [
+        'id' => 'bot_dofus',
+        'name' => 'Bot Dofus Retro',
+        'year' => '2018',
+        'description' => "Un bot dofus conçu avec la stratégie man-in-middle. Le programme tourne sous forme de proxy qui intercepte les paquets et les modifie pour simuler les actions du jouer. ",
+        'technologies' => [
+            'Golang' => ['bg-golang', 'fa-brands fa-golang'],
+        ],
+        'links' => [
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/dofus-middleware']
+        ]
+    ],
+    [
         'id' => 'narrative_editor',
         'name' => 'Fiction story editor',
         'year' => '2019',
@@ -135,7 +147,7 @@ $projects = [
         'id' => 'survivia',
         'name' => 'Survivia',
         'year' => '2015',
-        'description' => "Un serveur minecraft PVP que j'ai fondé et géré pendant 3 ans, de 2012 à 2015. Comunauté de 300.000 membres. Réseau de 12 serveurs linux. Les serveurs sont fermés et la commaunauté s'est dissoute mais les modes de jeux développés restent jouble sur serveur privé.",
+        'description' => "Un serveur minecraft PVP que j'ai fondé et géré de 2012 à 2015. Comunauté de 300.000 membres. Réseau de 12 serveurs linux.",
         'technologies' => [
             'Java' => ['bg-java', 'fa-brands fa-java'],
             'MySQL' => ['bg-mysql', 'fa-solid fa-database'],
@@ -227,6 +239,18 @@ $projects = [
             'Play' => ['fa-regular fa-play', 'https://minelia.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/minelia'],
         ],
+    ],
+    [
+        'id' => 'swarius',
+        'name' => 'Swarius',
+        'year' => '2010',
+        'description' => "Développeur du site web du serveur privé Dofus Swarius. Communauté de plus d'un million de membre. On avait 17 ans. J'y ai fait mes armes",
+        'technologies' => [
+            'PHP' => ['bg-php', 'fa-brands fa-php'],
+            'MySQL' => ['bg-mysql', 'fa-solid fa-database'],
+        ],
+        'links' => [
+        ]
     ],
     [
         'id' => 'doewar',
