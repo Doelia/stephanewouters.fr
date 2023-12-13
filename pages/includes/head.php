@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache">
     <title>Stéphane Wouters</title>
 
     <?php if (getenv('APP_ENV') === 'prod'): ?>
@@ -10,7 +11,7 @@
     <?php else: ?>
         <script type="module" src="http://localhost:5173/@vite/client"></script>
 
-<!--        <link rel="stylesheet" href="http://localhost:5173/src/index.scss"/>-->
+        <link rel="stylesheet" href="http://localhost:5173/src/index.scss"/>
         <script type="module" src="http://localhost:5173/src/main.jsx"></script>
     <?php endif ?>
 

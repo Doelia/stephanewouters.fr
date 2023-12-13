@@ -11,8 +11,8 @@ $projects = [
             'react' => ['bg-react', 'fa-brands fa-react'],
         ],
         'links' => [
-            'Play' => ['fa-regular fa-play', 'https://ants.doelia.fr'],
-            'github' => ['fa-brands fa-github', 'https://github.com/doelia/ants']
+            'Play' => ['fa-regular fa-external-link', 'https://ants.doelia.fr'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/ants']
         ],
     ],
     [
@@ -24,7 +24,8 @@ $projects = [
             'react native' => ['bg-react', 'fa-brands fa-react'],
         ],
         'links' => [
-            'Download' => ['fa-regular fa-play', 'https://stephanewouters.fr/pk'],
+            'iOS' => ['fa-brands fa-apple', 'https://stephanewouters.fr/pk'],
+            'Android' => ['fa-brands fa-android', 'https://stephanewouters.fr/pk'],
         ],
     ],
     [
@@ -38,7 +39,7 @@ $projects = [
             'AWS' => ['bg-aws', 'fa-brands fa-aws'],
         ],
         'links' => [
-            'playthatmap.net' => ['fa-regular fa-play', 'https://playthatmap.net'],
+            'playthatmap.net' => ['fa-regular fa-external-link', 'https://playthatmap.net'],
         ],
     ],
     [
@@ -84,7 +85,7 @@ $projects = [
         ],
         'links' => [
             'Demo' => ['fa-regular fa-play', 'https://planning-teletravail.doelia.fr/'],
-            'github' => ['fa-brands fa-github', 'https://github.com/Doelia/planning-teletravail'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/planning-teletravail'],
         ]
     ],
     [
@@ -98,7 +99,7 @@ $projects = [
         ],
         'links' => [
             'Demo' => ['fa-regular fa-play', 'https://fish-flocking.doelia.fr/'],
-            'github' => ['fa-brands fa-github', 'https://github.com/doelia/fish-flocking']
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/fish-flocking']
         ]
     ],
     [
@@ -138,7 +139,7 @@ $projects = [
             'JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
-            'github' => ['fa-brands fa-github', 'https://github.com/doelia/bourbaki'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/bourbaki'],
         ]
     ],
     [
@@ -152,7 +153,7 @@ $projects = [
         ],
         'links' => [
             'Demo' => ['fa-regular fa-play', 'https://whiteboard.doelia.fr/'],
-            'github' => ['fa-brands fa-github', 'https://github.com/Doelia/realtimeboard']
+            'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/realtimeboard']
         ]
     ],
     [
@@ -166,7 +167,7 @@ $projects = [
             'JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
-            'github' => ['fa-brands fa-github', 'https://github.com/doelia/defensia'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/defensia'],
         ],
     ],
     [
@@ -180,7 +181,7 @@ $projects = [
         ],
         'links' => [
             'Demo' => ['fa-regular fa-play', 'https://dominion.doelia.fr/'],
-            'github' => ['fa-brands fa-github', 'https://github.com/doelia/dominion'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/dominion'],
         ],
     ],
     [
@@ -194,7 +195,7 @@ $projects = [
         ],
         'links' => [
             'Play' => ['fa-regular fa-play', 'https://minelia.doelia.fr/'],
-            'github' => ['fa-brands fa-github', 'https://github.com/doelia/minelia'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/minelia'],
         ],
     ],
     [
@@ -207,7 +208,7 @@ $projects = [
         ],
         'links' => [
             'Play' => ['fa-regular fa-play', 'https://doewar-2009.doelia.fr/'],
-            'github' => ['fa-brands fa-github', 'https://github.com/Doelia/doewar-2009'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/doewar-2009'],
         ],
     ]
 ];
@@ -216,7 +217,6 @@ $projects_per_year = [];
 foreach ($projects as $project) {
     $projects_per_year[$project['year']][] = $project;
 }
-
 
 $years = array_keys($projects_per_year);
 rsort($years);

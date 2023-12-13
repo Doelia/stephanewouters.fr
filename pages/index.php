@@ -3,7 +3,7 @@
 
 <?php require('includes/head.php'); ?>
 
-<body data-bs-theme="light">
+<body data-bs-theme="dark">
 
 <turtle-canvas class="h-100 w-100 position-fixed opacity-25"></turtle-canvas>
 
@@ -127,7 +127,9 @@
                         </li>
                     </ul>
 
-<!--                    <a href="projects.html" class="fst-italic opacity-50">View more</a>-->
+                    <div class="mt-2">
+                        <a href="projects.html" class="fst-italic opacity-50">View more</a>
+                    </div>
 
                 </div>
             </div>

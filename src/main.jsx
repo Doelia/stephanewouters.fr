@@ -1,19 +1,43 @@
-import { gsap } from "gsap";
-
 import TurtleCanvas from "./canvas/render/TurtleCanvas.jsx";
 import {makeReact} from "./tools.js";
 import DomEventsPopper from "./canvas/DomEventsPopper.js";
 import "@hotwired/turbo"
-
 import './index.scss'
+import initEngine from "./canvas/engine/Engine.js";
 
+Turbo.setProgressBarDelay(150)
 
-function runGsap() {
-    gsap.fromTo(".fade-in", { y: 50, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.1 });
+// # Animations
+
+const observer = new IntersectionObserver(function (e) {
+    let i = 0;
+    e.forEach((entry) => {
+        if (entry.isIntersecting) {
+            setTimeout(() => {
+                entry.target.classList.add('fade-in-finished');
+            }, 50 * i++);
+        }
+    });
+}, {
+    threshold: .3
+});
+
+function animate() {
+    document.querySelectorAll('.fade-in').forEach((el, i) => {
+        setTimeout(() => {
+            el.classList.add('fade-in-finished');
+        }, 50 * i);
+    });
+
+    document.querySelectorAll('.scroll-fade-in').forEach((el, i) => {
+        observer.observe(el);
+    });
 }
 
-document.addEventListener("turbo:render", runGsap);
-runGsap();
+document.addEventListener("turbo:render", animate);
+animate();
+
+// # Canvas
 
 const entities = {
     ref: {
@@ -21,22 +45,6 @@ const entities = {
         fishes: [],
     }
 };
-
-function initEngine({entities}) {
-    function tick() {
-        for (let t of entities.ref.ants) {
-            t.wiggle(20);
-            t.forward(3);
-        }
-        for (let t of entities.ref.fishes) {
-            t.wiggle(10);
-            t.forward(2);
-        }
-    }
-
-    setInterval(tick, 1000/60);
-
-}
 
 initEngine({entities});
 

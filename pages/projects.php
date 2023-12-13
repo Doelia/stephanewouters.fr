@@ -4,7 +4,7 @@
 <?php require('includes/head.php'); ?>
 <?php require('includes/dataset_projects.php'); ?>
 
-<body data-bs-theme="light">
+<body data-bs-theme="dark">
 
 <div class="container position-relative p-3 p-sm-5">
     <div class="d-flex gap-3 align-items-center">
@@ -26,7 +26,7 @@
     </div>
 
     <?php foreach ($years as $year): ?>
-        <div class="fade-in mt-4">
+        <div class="scroll-fade-in mt-4">
 
             <div class="d-flex align-items-center gap-2">
                 <h3 class="text-uppercase fw-bold opacity-25 my-3"><?= $year ?></h3>
