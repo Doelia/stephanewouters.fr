@@ -4,7 +4,7 @@
 <?php require('includes/head.php'); ?>
 <?php require('includes/dataset_projects.php'); ?>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="light">
 
 <div class="container position-relative p-3 p-sm-5">
     <div class="d-flex gap-3 align-items-center">
@@ -35,7 +35,7 @@
 
             <div class="row">
             <?php foreach ($projects_per_year[$year] as $project): ?>
-                <div class="col-4 my-2">
+                <div class="col-12 col-md-6 col-lg-4 my-4">
                     <div>
 
                         <h4 class="m-0 fs-6 fw-bold"><?= $project['name'] ?></h4>
