@@ -23,13 +23,13 @@ const observer = new IntersectionObserver(function (e) {
 });
 
 function animate() {
-    document.querySelectorAll('.fade-in').forEach((el, i) => {
+    document.querySelectorAll('.fade-in:not(.fade-in-scroll)').forEach((el, i) => {
         setTimeout(() => {
             el.classList.add('fade-in-finished');
         }, 50 * i);
     });
 
-    document.querySelectorAll('.scroll-fade-in').forEach((el, i) => {
+    document.querySelectorAll('.fade-in-scroll').forEach((el, i) => {
         observer.observe(el);
     });
 }

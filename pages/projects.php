@@ -26,7 +26,7 @@
     </div>
 
     <?php foreach ($years as $year): ?>
-        <div class="scroll-fade-in mt-4">
+        <div class="mt-4 fade-in fade-in-scroll">
 
             <div class="d-flex align-items-center gap-2">
                 <h3 class="text-uppercase fw-bold opacity-25 my-3"><?= $year ?></h3>
