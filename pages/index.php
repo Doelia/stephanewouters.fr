@@ -22,6 +22,10 @@
             <div class="opacity-75 fs-4 mt-3 fw-light" style="">Full stack web developer</div>
             <div class="opacity-75 fs-4 fw-light">Montpellier, France</div>
 
+            <div class="mt-3">
+                <span class="text-body fw-light">contact@stephanewouters.fr</span>
+            </div>
+
             <div class="d-flex gap-3 fs-4 mt-3">
                 <a href="https://www.instagram.com/wouters.stephane/" class="text-body icon-hover-animated rounded">
                     <i class="fa-brands fa-instagram"></i>
@@ -37,6 +41,7 @@
             <div class="mt-3">
                 <a href="https://www2.stephanewouters.fr/CV_WOUTERS.pdf" class="text-hover-animated text-body fw-bold">CV</a>
             </div>
+
 
         </div>
 
@@ -128,7 +133,7 @@
                     </ul>
 
                     <div class="mt-2">
-                        <a href="projects.html" class="fst-italic opacity-50">View more</a>
+                        <a href="projects.html" class="fst-italic opacity-50 text-black">View more</a>
                     </div>
 
                 </div>

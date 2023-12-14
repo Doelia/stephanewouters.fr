@@ -13,6 +13,7 @@ body[data-bs-theme="dark"] { --color-hover: #706233; }
 
 .container {
   max-width: 1200px;
+  overflow-x: hidden;
 }
 
 .category-icon {

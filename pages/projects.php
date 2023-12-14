@@ -22,7 +22,7 @@
             <i class="fa-solid fa-arrow-left-long fw-light me-1"></i>
             Back to portfolio
         </a>
-        <h2 class="text-uppercase fw-bold fs-5">ALL PROJECTS</h2>
+        <h2 class="text-uppercase fw-bold fs-5">ALL SIDE PROJECTS</h2>
     </div>
 
     <?php foreach ($years as $year): ?>
