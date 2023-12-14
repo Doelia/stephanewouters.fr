@@ -56,7 +56,7 @@ $projects = [
             'Mercure' => ['bg-mercure', 'fa-solid fa-temperature-three-quarters'],
         ],
         'links' => [
-            'Play' => ['fa-regular fa-play', 'https://bakamon.doelia.fr/'],
+            'Play' => ['fa-regular fa-external-link', 'https://bakamon.doelia.fr/'],
         ],
     ],
     [
@@ -71,7 +71,7 @@ $projects = [
             'PostgreSQL' => ['bg-postgres', 'fa-solid fa-database'],
         ],
         'links' => [
-            'Play' => ['fa-regular fa-play', 'https://gemwar.io'],
+            'Play' => ['fa-regular fa-external-link', 'https://gemwar.io'],
         ]
     ],
     [
@@ -99,7 +99,7 @@ $projects = [
             'Vue.js' => ['bg-vuejs', 'fa-brands fa-vuejs'],
         ],
         'links' => [
-            'Demo' => ['fa-regular fa-play', 'https://planning-teletravail.doelia.fr/'],
+            'Demo' => ['fa-regular fa-external-link', 'https://planning-teletravail.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/planning-teletravail'],
         ]
     ],
@@ -125,7 +125,7 @@ $projects = [
             'Material design' => ['bg-react', 'fa-brands fa-angular'],
         ],
         'links' => [
-//            'Demo' => ['fa-regular fa-play', 'https://fish-flocking.doelia.fr/'],
+//            'Demo' => ['fa-regular fa-external-link', 'https://fish-flocking.doelia.fr/'],
 //            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/fish-flocking']
         ]
     ],
@@ -139,7 +139,7 @@ $projects = [
             'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
-            'Demo' => ['fa-regular fa-play', 'https://fish-flocking.doelia.fr/'],
+            'Demo' => ['fa-regular fa-external-link', 'https://fish-flocking.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/fish-flocking']
         ]
     ],
@@ -154,7 +154,7 @@ $projects = [
             'Linux' => ['bg-dark', 'fa-brands fa-linux'],
         ],
         'links' => [
-            'Mode de jeux' => ['fa-regular fa-play', 'https://survivia.net'],
+            'Mode de jeux' => ['fa-regular fa-external-link', 'https://survivia.net'],
             'Memory fan video' => ['fa-brands fa-youtube', 'https://www.youtube.com/watch?v=VKrGqg8MAX0'],
         ]
     ],
@@ -195,7 +195,7 @@ $projects = [
             'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
-            'Demo' => ['fa-regular fa-play', 'https://whiteboard.doelia.fr/'],
+            'Demo' => ['fa-regular fa-external-link', 'https://whiteboard.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/realtimeboard']
         ]
     ],
@@ -223,7 +223,7 @@ $projects = [
             'Vanilla JS' => ['bg-js', 'fa-brands fa-js'],
         ],
         'links' => [
-            'Demo' => ['fa-regular fa-play', 'https://dominion.doelia.fr/'],
+            'Demo' => ['fa-regular fa-external-link', 'https://dominion.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/dominion'],
         ],
     ],
@@ -236,7 +236,7 @@ $projects = [
             'jQuery' => ['bg-jquery', 'fa-brands fa-js'],
         ],
         'links' => [
-            'Play' => ['fa-regular fa-play', 'https://minelia.doelia.fr/'],
+            'Play' => ['fa-regular fa-external-link', 'https://minelia.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/minelia'],
         ],
     ],
@@ -262,7 +262,7 @@ $projects = [
             'MySQL' => ['bg-mysql', 'fa-solid fa-database'],
         ],
         'links' => [
-            'Play' => ['fa-regular fa-play', 'https://doewar-2009.doelia.fr/'],
+            'Play' => ['fa-regular fa-external-link', 'https://doewar-2009.doelia.fr/'],
             'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/doewar-2009'],
         ],
     ]
