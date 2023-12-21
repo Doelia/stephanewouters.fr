@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="turbo-cache-control" content="no-cache">
     <title>Stéphane Wouters</title>
+    <meta name="description" content="Stéphane Wouters alias Doelia. Full stack web developer. France, Montpellier">
 
     <?php if (getenv('APP_ENV') === 'prod'): ?>
         <?php $manifest = json_decode(file_get_contents(__DIR__ . '/../../dist/.vite/manifest.json'), true); ?>
