@@ -2,6 +2,19 @@
 
 $projects = [
     [
+        'id' => 'boumboum',
+        'name' => 'Boum boum',
+        'year' => '2024',
+        'description' => "Intégration du projet du youtubeur Benjamin code en react native, une appli de rencontre basée sur les goût musicaux.",
+        'technologies' => [
+            'React native' => ['bg-react', 'fa-brands fa-react'],
+        ],
+        'links' => [
+            'Démo vidéo' => ['fa-regular fa-external-link', 'https://youtu.be/QbPcjVUnF00?si=PPVuC0PZZOawGVrv&t=28'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/boumboum-app']
+        ],
+    ],
+    [
         'id' => 'ants',
         'name' => 'Ants simulator',
         'year' => '2023',
