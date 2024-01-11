@@ -112,10 +112,6 @@
                     <ul class="list-unstyled d-flex flex-column gap-1 mb-0">
                         <li>
                             <span class="fst-italic fw-light">2023 -</span>
-                            <a href="https://github.com/Doelia/boumboum-app" class="text-hover-animated text-body fw-bold">Boum Boum App.</a>
-                        </li>
-                        <li>
-                            <span class="fst-italic fw-light">2023 -</span>
                             <turtle-trigger-popper turtle-type="ants">
                                 <a href="https://ants.doelia.fr" class="text-hover-animated text-body fw-bold">Ants simulator</a>
                             </turtle-trigger-popper>
