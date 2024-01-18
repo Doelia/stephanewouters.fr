@@ -2,6 +2,20 @@
 
 $projects = [
     [
+        'id' => 'schtroumfizer',
+        'name' => 'Scthroumfizer',
+        'year' => '2024',
+        'description' => "Un traducteur pour les schtroumpfs utilisant des modèles IA en natural language.",
+        'technologies' => [
+            'Python' => ['bg-python', 'fa-brands fa-python'],
+            'Symfony' => ['bg-dark', 'fa-brands fa-symfony'],
+        ],
+        'links' => [
+            'Démo' => ['fa-regular fa-external-link', 'https://schtroumpfizer.doelia.fr'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/Doelia/schtroumpfizer']
+        ],
+    ],
+    [
         'id' => 'boumboum',
         'name' => 'Boum boum',
         'year' => '2024',
