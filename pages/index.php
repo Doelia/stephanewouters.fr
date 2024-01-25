@@ -27,6 +27,9 @@
             </div>
 
             <div class="d-flex gap-3 fs-4 mt-3">
+                <a href="https://twitter.com/Doelia" class="text-body icon-hover-animated rounded">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
                 <a href="https://www.instagram.com/wouters.stephane/" class="text-body icon-hover-animated rounded">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
