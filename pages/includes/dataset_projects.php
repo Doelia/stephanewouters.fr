@@ -2,6 +2,20 @@
 
 $projects = [
     [
+        'id' => 'badapple',
+        'name' => 'Bad Apple, but it\'s 5.000 fishes',
+        'year' => '2024',
+        'description' => "Le clip de Bad apple, mais avec rendu avec une simulation de 5.000 poissons qui sont attirés par les formes sombres.",
+        'technologies' => [
+            'Canvas' => ['bg-html', 'fa-brands fa-html5'],
+            'React' => ['bg-react', 'fa-brands fa-react'],
+        ],
+        'links' => [
+            'Vidéo' => ['fa-regular fa-external-link', 'https://www.youtube.com/watch?v=bKs2jukK-ME&ab_channel=St%C3%A9phaneWouters'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/badapple-fishes']
+        ],
+    ],
+    [
         'id' => 'schtroumfizer',
         'name' => 'Schtroumpf traducteur',
         'year' => '2024',
