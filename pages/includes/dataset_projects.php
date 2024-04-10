@@ -145,6 +145,19 @@ $projects = [
         ]
     ],
     [
+        'id' => 'carto-stecroix',
+        'name' => 'Cartographie Sainte croix',
+        'year' => '2021',
+        'description' => "Cartographie des alentours du village de Sainte Croix de Quintillargues",
+        'technologies' => [
+            'Photoshop' => ['bg-dark', 'fa-solid fa-bezier-curve'],
+            'Mapbox' => ['bg-dark', 'fa-solid fa-map-location-dot'],
+        ],
+        'links' => [
+            'Website' => ['fa-regular fa-external-link', 'https://www2.stephanewouters.fr/carto/website-stecroix/'],
+        ]
+    ],
+    [
         'id' => 'bot_dofus',
         'name' => 'Bot Dofus Retro',
         'year' => '2018',
