@@ -2,6 +2,21 @@
 
 $projects = [
     [
+        'id' => 'thefrenchtototte',
+        'name' => 'The French Tototte',
+        'year' => '2024',
+        'description' => "Intégration web du projet \"The French Tototte\" du youtubeur Basti UI, l'occasion pour moi d'apprendre TailwindCSS.",
+        'technologies' => [
+            'TailwindCSS' => ['bg-tailwindcss', 'fa-brands fa-css3-alt'],
+            'Next.JS' => ['bg-black', 'fa-brands fa-react'],
+        ],
+        'links' => [
+            'Site web' => ['fa-regular fa-external-link', 'https://the-french-tototte.doelia.fr/'],
+            'Vidéo' => ['fa-brands fa-youtube', 'https://www.youtube.com/watch?v=FVEqE47pOLw&ab_channel=BastiUi'],
+            'Source code' => ['fa-brands fa-github', 'https://github.com/doelia/the-french-tototte/'],
+        ],
+    ],
+    [
         'id' => 'badapple',
         'name' => 'Bad Apple, but it\'s 5.000 fishes',
         'year' => '2024',
